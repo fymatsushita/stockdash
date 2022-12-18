@@ -5,11 +5,6 @@ import pandas as pd
 import json
 from decouple import config
 
-DIVIDENDOS_INVEST_MENSAL = 3000
-CAIXA_NUBANK = 45413
-TAXA_SELIC = 10
-FATURA_XP = 3490
-
 AUTH = config('AUTH_BEARER')
 API = config('API_SHEETY')
 
